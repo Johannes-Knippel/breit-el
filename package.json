@@ -1,9 +1,12 @@
 {
   "name": "@figma/my-make-file",
-  "private": true,
+  "private": false,
+  "homepage": "https://johannes-knippel.github.io/breit-el/",
   "version": "0.0.1",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "vite build",
     "dev": "vite"
   },
