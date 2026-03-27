@@ -1,7 +1,7 @@
 {
   "name": "@figma/my-make-file",
   "private": false,
-  "homepage": "https://johannes-knippel.github.io/breit-el/",
+  "homepage": "https://johannes-knippel.github.io/breit-el",
   "version": "0.0.1",
   "type": "module",
   "scripts": {
